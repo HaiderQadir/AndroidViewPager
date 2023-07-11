@@ -10,9 +10,10 @@ import com.hq.androidviewpagerlib.R
 
 /** @author HaiderQadir **/
 
-class VPItemFragment(var mText: String) : Fragment() {
+class VPItemFragment(var mTitle: String,var mDetail:String) : Fragment() {
     private var mView: View? = null
-    private var vp_item_textview: TextView? = null
+    private var mTitleText: TextView? = null
+    private var mDetailText: TextView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,9 +26,13 @@ class VPItemFragment(var mText: String) : Fragment() {
     ): View? {
         mView = inflater.inflate(R.layout.fragment_vp_item, container, false)
 
+        mTitleText = mView!!.findViewById<TextView>(R.id.vp_item_textview)
+        mTitleText!!.text = mTitle
 
-        vp_item_textview=mView!!.findViewById<TextView>(R.id.vp_item_textview)
-        vp_item_textview!!.text = mText
+        mDetailText = mView!!.findViewById<TextView>(R.id.vp_item_textview)
+        mDetailText!!.text = mDetail
+
+
 
         return mView;
 

@@ -1,20 +1,15 @@
 # AndroidViewPager
 ![ ](https://img.shields.io/badge/-JitPack-red)
 ![ ](https://img.shields.io/badge/Release-v1.1-yellow?labelColor=Yellow)
+
+The ViewPager with Indicator for Android.
  
-
- The ViewPager Indicator for Android ViewPager2 and ViewPager.
 ## Key Features 🎯
-View Pager Implementation
-Indicator
-Custom Rounded 
-
 - **View Pager**: Simple and Easy Implementation of View Pager.
 - **Indicator**: Indicator for View Pager ensures the track of View Pager status.
 - **Custom Rounded View Pager UI**: Custom design for View Pager items.
 - **Secure**: Your data, your control. Always.
 - **Compatible**: Android 24 or upper.
-- **File Compatibility**: 
 - **Open Source**: Freedom is beautiful, so is AndroidViewPager. Open source and free to use.
 
 ## Download

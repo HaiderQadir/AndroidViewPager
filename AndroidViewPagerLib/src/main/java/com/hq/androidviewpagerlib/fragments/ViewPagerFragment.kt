@@ -47,13 +47,13 @@ class ViewPagerFragment(
             VPItemFragment("Fragment_1_Title", "Fragment_1_Detail")
         )
         adapter!!.addFragment(
-            VPItemFragment("Fragment_1_Title", "Fragment_1_Detail")
+            VPItemFragment("Fragment_2_Title", "Fragment_2_Detail")
         )
         adapter!!.addFragment(
-            VPItemFragment("Fragment_1_Title", "Fragment_1_Detail")
+            VPItemFragment("Fragment_3_Title", "Fragment_3_Detail")
         )
         adapter!!.addFragment(
-            VPItemFragment("Fragment_1_Title", "Fragment_1_Detail")
+            VPItemFragment("Fragment_4_Title", "Fragment_4_Detail")
         )
 
         viewPager!!.adapter = adapter

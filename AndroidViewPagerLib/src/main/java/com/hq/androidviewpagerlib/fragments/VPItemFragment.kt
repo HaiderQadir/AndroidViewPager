@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.hq.androidviewpagerlib.R
 
-/** @author HaiderQadir **/
+/** @author Haider Qadir **/
 
 class VPItemFragment(var mTitle: String,var mDetail:String) : Fragment() {
     private var mView: View? = null

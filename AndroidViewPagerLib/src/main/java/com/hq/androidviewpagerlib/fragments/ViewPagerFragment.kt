@@ -12,7 +12,7 @@ import com.google.android.material.tabs.TabLayout
 import com.hq.androidviewpagerlib.R
 import com.hq.androidviewpagerlib.adapters.ViewPagerAdapter
 
-/** @author HaiderQadir **/
+/** @author Haider Qadir **/
 
 class ViewPagerFragment(
     private var footerCardVisibility: Boolean,

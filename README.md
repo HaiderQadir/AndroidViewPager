@@ -24,6 +24,17 @@ repositories {
     maven { url 'https://jitpack.io' }
 }
 ```
+## How to use
+````
+val mFragment = ViewPagerFragment(
+   false,
+   settingsIconVisibility = false,
+   infoIconVisibility = false
+)
+supportFragmentManager.beginTransaction().replace(R.id.frameLayout, mFragment).commit()
+````
+
+
 ## Powered By ![ ](https://img.shields.io/badge/-JitPack-red?labelColor=gray&style=for-the-badge)
 
  ## License 📄

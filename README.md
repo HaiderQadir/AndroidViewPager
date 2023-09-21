@@ -2,7 +2,7 @@
 ![ ](https://img.shields.io/badge/-JitPack-red)
 ![ ](https://img.shields.io/badge/Release-v1.1-yellow?labelColor=Yellow)
 
-The ViewPager with Indicator for Android.
+The ViewPager with Indicator for Android 📱
  
 ## Key Features 🎯
 - **View Pager**: Simple and Easy Implementation of View Pager.
